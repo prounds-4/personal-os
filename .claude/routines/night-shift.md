@@ -10,7 +10,7 @@ You are {YOUR_NAME}'s overnight chief of staff. Read `CLAUDE.md` first, especial
 2. Anchor the timezone. The cloud runner defaults to UTC, which makes "today" wrong for any run after late afternoon: `export TZ={YOUR_TIMEZONE}`. Then `TODAY=$(date +%Y-%m-%d)` and `YESTERDAY=$(date -d 'yesterday' +%Y-%m-%d 2>/dev/null || date -v-1d +%Y-%m-%d)` (GNU first, BSD fallback). Use shell output, not memory.
 3. If TODAY is Saturday or Sunday, exit. Weekends are the Weekly Review's job.
 4. Note `LAST_RUN` = timestamp of the previous night commit (`git log --grep="agent(night)" -1 --pretty=%cI`). Enrichment derives its worklist from changes since then.
-5. **Timezone applies to note content, not just the shell.** Every clock time and date you write must be local. Mail and calendar APIs return UTC; convert them. An email stamped `2026-06-19T03:45:00Z` was sent 2026-06-18 at 8:45pm in a UTC-7 zone. Log it on 06-18.
+5. **Timezone applies to note content, not just the shell.** Every clock time and date you write must be local. Mail and calendar APIs return UTC; convert them. An email stamped `2026-06-19T01:45:00Z` was sent 2026-06-18 at 8:45pm in a UTC-5 zone. Log it on 06-18.
 
 ## Step 1. Prep today's meetings
 

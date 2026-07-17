@@ -64,7 +64,7 @@ A Responsibility carries a `metric`: the honest answer to "how do I know this is
 ```yaml
 type: Responsibility
 status: active
-metric: Live, on-thesis opportunities advancing
+metric: Qualified opportunities in motion each week
 people: ["[[Jane Doe]]"]
 organizations: ["[[Acme Corp]]"]
 ```

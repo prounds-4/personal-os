@@ -60,7 +60,7 @@ Four moving parts. You touch none of the plumbing.
 1. **Clone this into a private repo.** Your vault is your life; the template is the only part that should be public.
 2. **Open it as an Obsidian vault** and open the same folder in Claude Code.
 3. **Edit [CLAUDE.md](CLAUDE.md).** Fill in the placeholders: your name, your timezone, your responsibilities, the tools you actually use. This file is the system's constitution, and everything else reads it first.
-4. **Connect what you have.** The routines assume a calendar, mail, and a task manager. Any of them can be swapped or dropped; see [docs/05-make-it-yours.md](docs/05-make-it-yours.md).
+4. **Connect what you have.** The routines assume a calendar, mail, and a task manager. Any of them can be swapped or dropped; see [docs/10-make-it-yours.md](docs/10-make-it-yours.md).
 5. **Register the routines** as scheduled agents pointed at your repo, committing to `main`.
 6. Each morning, read the brief. Each evening, run the close-out. Let the overnight run do the rest.
 

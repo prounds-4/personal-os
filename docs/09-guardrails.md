@@ -35,7 +35,7 @@ Date errors are the most common failure mode in a system like this, by a wide ma
 
 - **Inject today's date every turn** and treat it as ground truth.
 - **A date later than today is scheduled, not past.** Never write it in past tense, never log it as an interaction, never set `last_met` to it.
-- **Timezone applies to note content, not just the shell.** Calendar and mail APIs return UTC. An email stamped `2026-06-19T03:45:00Z` was sent on 06-18 at 8:45pm in a UTC-7 zone. Log it on 06-18. Convert before writing.
+- **Timezone applies to note content, not just the shell.** Calendar and mail APIs return UTC. An email stamped `2026-06-19T01:45:00Z` was sent on 06-18 at 8:45pm in a UTC-5 zone. Log it on 06-18. Convert before writing.
 - **Prefer shell output over memory.** `date +%Y-%m-%d`, not recall.
 - **A file's own frontmatter date beats its filename and beats your memory.**
 - When-it-happened fields (`last_met`, `last_enriched`) must be in the past. If unknown, leave them blank rather than guessing.
