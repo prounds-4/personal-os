@@ -1,0 +1,22 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.folder == "CRM/Projects"
+    groupBy:
+      property: status
+      direction: ASC
+    order:
+      - file.name
+      - status
+      - organizations
+      - people
+      - events
+      - last_enriched
+    sort:
+      - property: responsibility
+        direction: ASC
+    columnSize:
+      note.status: 82
+      note.events: 239

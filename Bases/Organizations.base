@@ -1,0 +1,12 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.folder == "CRM/Organizations"
+    order:
+      - file.name
+      - website
+      - industry
+      - linkedin
+      - last_enriched

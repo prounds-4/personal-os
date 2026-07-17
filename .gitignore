@@ -1,0 +1,13 @@
+# Obsidian workspace state (machine-local, not worth versioning)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# If you clone this as your real vault, keep anything private out of git.
+# Examples:
+# guide/          # purchased PDFs or other paid content
+# Private/

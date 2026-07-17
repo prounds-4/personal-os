@@ -1,0 +1,30 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.folder == "CRM/People"
+    groupBy:
+      property: last_met
+      direction: DESC
+    order:
+      - file.name
+      - role
+      - organizations
+      - location
+      - email
+      - phone
+      - linkedin
+      - first_met
+      - last_met
+      - last_enriched
+    sort:
+      - property: organizations
+        direction: DESC
+    columnSize:
+      file.name: 190
+      note.role: 230
+      note.location: 180
+      note.email: 165
+      note.phone: 97
+      note.linkedin: 382

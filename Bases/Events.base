@@ -1,0 +1,19 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.folder.contains("Events")
+    groupBy:
+      property: date
+      direction: DESC
+    order:
+      - file.name
+      - date
+      - people
+      - projects
+      - organizations
+    columnSize:
+      file.name: 413
+  - type: table
+    name: View
