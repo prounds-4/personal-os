@@ -74,7 +74,7 @@ Four moving parts. You touch none of the plumbing.
 
 ## The same pattern, elsewhere
 
-Applied to a $525M construction project: [Claude of Record](https://github.com/prounds-4/claude-of-record). Applied to training: [Fitness OS](https://github.com/prounds-4/20-minute-fitness).
+Applied to a nine-figure construction project: [Claude of Record](https://github.com/prounds-4/claude-of-record). Applied to training: [Fitness OS](https://github.com/prounds-4/20-minute-fitness).
 
 ## License
 
